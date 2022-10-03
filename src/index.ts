@@ -1,2 +1,4 @@
-import add from './math/add';
-console.log(add(2, 3));
+import * as dotenv from 'dotenv';
+dotenv.config();
+
+console.log(process.env.S3_BUCKET);
