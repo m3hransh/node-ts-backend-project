@@ -1,0 +1,2 @@
+import add from './math/add';
+console.log(add(2, 3));
