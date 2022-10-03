@@ -2,6 +2,7 @@ const config = {
   env: {
     es2021: true,
     node: true,
+    jest: true,
   },
   extends: [
     'airbnb',
